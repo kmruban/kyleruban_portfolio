@@ -64,7 +64,7 @@
     display: flex;
     background-color: rgb(190, 188, 188);
     width: 70%;
-    height: 70%;
+    height: 65%;
     flex-wrap: wrap;
     border-radius: 5px;
     justify-content: space-around;
@@ -72,6 +72,7 @@
     justify-content: center;
     padding: 10px;
     overflow-x: hidden;
+    margin-bottom: 10px;
 
     .card {
       display: flex;
@@ -79,7 +80,7 @@
       align-items: center;
       justify-content: center;
       margin: 10px 10px;
-      height: 225px;
+      height: 250px;
       padding: 0px 15px;
       background-color: white;
       border-radius: 5px;
@@ -119,11 +120,14 @@
         border-radius: 5px;
         color: black;
         border: 2.5px solid black;
-        list-style: none;
 
         @include phone {
           font-size: 12.5px;
         }
+      }
+
+      .repository{
+        padding-top: 5px;
       }
     }
   }

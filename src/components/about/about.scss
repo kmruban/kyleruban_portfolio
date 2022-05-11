@@ -1,5 +1,7 @@
+@import "../../global.scss";
+
 .about {
-  background-color: lightgray;
+  background-color: white;
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -11,7 +13,7 @@
 
   .container {
     position: absolute;
-    background-color: lightgray;
+    background-color: white;
     height: calc(100vh - 50px);
     width: 100vw;
     display: flex;
@@ -34,8 +36,41 @@
     .top{
       display: flex;
       height: 40%;
-      width: 75%;
-      justify-content: center;
+      width: 90%;
+      justify-content: space-around;
+
+      .left{
+        display: flex;
+
+        img{
+          @include phone {
+            height: 200px;
+            width: 175px;
+          }
+        }
+      }
+
+      .right{
+        display: flex;
+        flex-direction: column;
+
+        label{
+          font-size: 14px;
+          color: gray;
+
+          @include tablet {
+            font-size: 10px;
+          }
+        }
+
+        p{
+          font-size: 18px;
+
+          @include tablet {
+            font-size: 14px;
+          }
+        }
+      }
     }
 
     .bottom{

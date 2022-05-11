@@ -9,7 +9,6 @@ import ProjectList from '../projectList/ProjectList';
 function Projects() {
   const [data, setData] = useState([]);
   const [selected, setSelected] = useState('web');
-  const [detailsIsShown, setDetailsIsShown] = useState(false);
 
   const list = [
     {
@@ -52,30 +51,20 @@ function Projects() {
       </ul>
       <div className="container">
       {data.map((d) => (
-        <a href={d.link} alt=''>
-            <div className='card'
-              onMouseEnter={() => 
-                setDetailsIsShown(true)
-              }
-              onMouseLeave={() => 
-                setDetailsIsShown(false)
-              }
-            >
-              {detailsIsShown && (
-                <div>
-                  <a href={d.repo}>GitHub Repository</a>
-                </div>
-              )}
-              <div className='top'>
-                <img src={d.img} alt=''></img>
-              </div>
-              <div className='bottom'>
-                {d.title}
-              </div>
-            </div>
-        </a>
+        <div className='card'>
+          <div className='top'>
+            <a href={d.link} alt=''><img src={d.img} alt=''></img></a>
+          </div>
+          <div className='bottom'>
+            {d.title}
+          </div>
+          <div className='repository'>
+            <a href={d.repo}>GitHub Repository</a>
+          </div>
+        </div>
       ))}
       </div>
+      Click on a picture for a video demonstration of the project!
     </div>
   )
 }

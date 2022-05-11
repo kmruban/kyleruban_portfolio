@@ -8,7 +8,22 @@ function About() {
             <h1>About Me</h1>
           </div>
           <div className='top'>
-            Top Top
+            <div className='left'>
+              <img src='pictures/person.png' alt='' />
+            </div>
+            <div className='right'>
+              <h2>Contact</h2>
+              <br/>
+              <label>Email</label>
+              <p>Kyleruban1@outlook.com</p>
+              <br/>
+              <label>Phone #</label>
+              <p>973-362-6288</p>
+              <br/>
+              <label>Location</label>
+              <p>NY/NJ</p>
+              <br/>
+            </div>
           </div>
           <div className='bottom'>
             Bottom

@@ -6,21 +6,26 @@
     },
     {
       id: 2,
+      title: "TypeScript",
+      img: "pictures/typescript.png",
+    },
+    {
+      id: 3,
       title: "JavaScript",
       img: "pictures/javascript.png",
     },
     {
-      id: 3,
+      id: 4,
       title: "HTML 5",
       img: "pictures/html5.png",
     },
     {
-      id: 4,
+      id: 5,
       title: "SASS",
       img: "pictures/sass.png",
     },
     {
-      id: 5,
+      id: 6,
       title: "CSS",
       img: "pictures/css.png",
     },
@@ -70,27 +75,37 @@
   export const webProj = [
     {
       id: 1,
-      title: "Movies App",
+      title: "Amazon App",
       img: "pictures/java.png",
       bio: "bio",
       link: "https://www.espn.com/mlb/",
-      repo: "",
+      repo: "https://github.com/kmruban/mern-amazon",
     },
     {
       id: 2,
-      title: "C#",
+      title: "Movies App",
       img: "pictures/csharp.png",
       bio: "bio",
       link: "https://www.espn.com/nba/",
+      repo: "https://github.com/kmruban/mern-amazon",
+    },
+    {
+      id: 3,
+      title: "Movies App",
+      img: "pictures/csharp.png",
+      bio: "bio",
+      link: "https://www.espn.com/nba/",
+      repo: "https://github.com/kmruban/mern-amazon",
     },
   ];
 
   export const graphicsProj = [
     {
       id: 1,
-      title: "WebGL Bball",
+      title: "Basketball",
       img: "pictures/bball.png",
       bio: "bio",
       link: "https://github.com/kyleruban/webGL_BasketballCourt",
+      repo: "",
     }
   ];

@@ -44,7 +44,7 @@ function Contact() {
             </div>
             <div className='bottom'>
                 <a href='https://www.linkedin.com/in/kyle-ruban-a555611a3/' alt=''><img src='pictures/linkedin.png' alt='' /></a>
-                <a href='https://github.com/kyleruban' alt=''><img src='pictures/github.png' alt='' /></a>
+                <a href='https://github.com/kmruban' alt=''><img src='pictures/github.png' alt='' /></a>
                 <a href='https://www.instagram.com/kyleruban/?hl=en' alt=''><img src='pictures/insta.png' alt='' /></a>
             </div>
         
