@@ -17,7 +17,7 @@ function Projects() {
     },
     {
       id: "graphics",
-      title: "Graphics",
+      title: "3d Graphics",
     }
   ];
 

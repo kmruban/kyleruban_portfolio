@@ -29,6 +29,11 @@
       title: "CSS",
       img: "pictures/css.png",
     },
+    {
+      id: 7,
+      title: "Node",
+      img: "pictures/node.png",
+    }
 
   ];
   
@@ -43,12 +48,17 @@
       title: "C#",
       img: "pictures/csharp.png",
     },
+    {
+      id: 3,
+      title: "Python",
+      img: "pictures/python.png",
+    }
   ];
 
   export const database = [
     {
       id: 1,
-      title: "MySql",
+      title: "MySQL",
       img: "pictures/mysql.png",
     },
     {
@@ -66,7 +76,7 @@
   export const graphics = [
     {
       id: 1,
-      title: "Web GL",
+      title: "WebGL",
       img: "pictures/webgl.png",
     },
   ];
@@ -105,7 +115,55 @@
       title: "Basketball",
       img: "pictures/bball.png",
       bio: "bio",
-      link: "https://github.com/kyleruban/webGL_BasketballCourt",
-      repo: "",
+      link: "pictures/webgl_basketball_demo.mov",
+      repo: "https://github.com/kmruban/webGL_BasketballCourt",
+    },
+    {
+      id: 2,
+      title: "Cat",
+      img: "pictures/cat.png",
+      bio: "bio",
+      link: "pictures/webgl_cat_demo.mov",
+      repo: "https://github.com/kmruban/webGl_ProjectCat",
+    },
+    {
+      id: 3,
+      title: "Ball",
+      img: "pictures/ball.png",
+      bio: "bio",
+      link: "pictures/webgl_ball_demo.mov",
+      repo: "https://github.com/kmruban/webGL_ProjectBall",
+    },
+    {
+      id: 4,
+      title: "Cube",
+      img: "pictures/cube.png",
+      bio: "bio",
+      link: "pictures/webgl_cube_demo.mov",
+      repo: "https://github.com/kmruban/webGL_ProjectCube",
+    },
+    {
+      id: 5,
+      title: "Person",
+      img: "pictures/person1.png",
+      bio: "bio",
+      link: "pictures/webgl_person_demo.mov",
+      repo: "https://github.com/kmruban/webGL_ProjectPerson",
+    },
+    {
+      id: 6,
+      title: "Shapes",
+      img: "pictures/shapes.png",
+      bio: "bio",
+      link: "pictures/webgl_shapes_demo.mov",
+      repo: "https://github.com/kmruban/webGL_ProjectShapes",
+    },
+    {
+      id: 7,
+      title: "Rotation",
+      img: "pictures/rotate.png",
+      bio: "bio",
+      link: "pictures/webgl_rotate_demo.mov",
+      repo: "https://github.com/kmruban/webGL_ProjectRotate",
     }
   ];
