@@ -101,8 +101,8 @@
     },
     {
       id: 3,
-      title: "Movies App",
-      img: "pictures/csharp.png",
+      title: "User Login",
+      img: "pictures/userlogin.png",
       bio: "bio",
       link: "https://www.espn.com/nba/",
       repo: "https://github.com/kmruban/mern-amazon",
