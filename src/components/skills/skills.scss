@@ -87,7 +87,7 @@
       border: solid 5px black;
 
       @include onlyTablet {
-        height: 250px;
+        height: 215px;
       }
 
       @include phone {

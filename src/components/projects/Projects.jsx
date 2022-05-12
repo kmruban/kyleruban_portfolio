@@ -59,7 +59,7 @@ function Projects() {
             {d.title}
           </div>
           <div className='repository'>
-            <a href={d.repo}>GitHub Repository</a>
+            <a href={d.repo}>GitHub</a>
           </div>
         </div>
       ))}

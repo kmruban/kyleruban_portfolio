@@ -16,7 +16,7 @@
     },
     {
       id: 4,
-      title: "HTML 5",
+      title: "HTML5",
       img: "pictures/html5.png",
     },
     {
@@ -26,12 +26,12 @@
     },
     {
       id: 6,
-      title: "CSS",
+      title: "CSS3",
       img: "pictures/css.png",
     },
     {
       id: 7,
-      title: "Node",
+      title: "Node.js",
       img: "pictures/node.png",
     }
 
@@ -86,18 +86,18 @@
     {
       id: 1,
       title: "Amazon App",
-      img: "pictures/java.png",
+      img: "pictures/amazon.png",
       bio: "bio",
-      link: "https://www.espn.com/mlb/",
+      link: "pictures/amazon_demo.mov",
       repo: "https://github.com/kmruban/mern-amazon",
     },
     {
       id: 2,
       title: "Movies App",
-      img: "pictures/csharp.png",
+      img: "pictures/netcorereact.jpeg",
       bio: "bio",
-      link: "https://www.espn.com/nba/",
-      repo: "https://github.com/kmruban/mern-amazon",
+      link: "https://github.com/kmruban/react_dotnetcore_moviesapp",
+      repo: "https://github.com/kmruban/react_dotnetcore_moviesapp",
     },
     {
       id: 3,
