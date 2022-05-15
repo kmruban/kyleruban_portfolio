@@ -134,7 +134,7 @@
     {
       id: 3,
       title: "Ball",
-      img: "pictures/ball.png",
+      img: "pictures/basketball.png",
       bio: "bio",
       link: "pictures/webgl_ball_demo.mov",
       repo: "https://github.com/kmruban/webGL_ProjectBall",
