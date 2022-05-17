@@ -109,8 +109,8 @@
       title: "User Login",
       img: "pictures/userlogin.png",
       bio: "bio",
-      link: "https://www.espn.com/nba/",
-      repo: "https://github.com/kmruban/mern-amazon",
+      link: "pictures/userlogin.mov",
+      repo: "https://github.com/kmruban/user_login",
     },
   ];
 
