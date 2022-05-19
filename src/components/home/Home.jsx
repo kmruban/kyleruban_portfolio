@@ -11,7 +11,7 @@ function Home() {
       showCursor: true,
       disableBackTyping: true,
       cursorChar: '|',
-      strings: ['Web Developer.' ] 
+      strings: ['Engineer.', 'Developer.'] 
     })
   }, []);
   return (
