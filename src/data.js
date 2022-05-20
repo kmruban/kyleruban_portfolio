@@ -117,6 +117,14 @@
   export const graphicsProj = [
     {
       id: 1,
+      title: "Bird Game",
+      img: "pictures/birds.png",
+      bio: "bio",
+      link: "pictures/BirdGame_Demo.mov",
+      repo: "pictures/BirdGame_Demo.mov",
+    },
+    {
+      id: 2,
       title: "Basketball",
       img: "pictures/bball.png",
       bio: "bio",
@@ -124,7 +132,7 @@
       repo: "https://github.com/kmruban/webGL_BasketballCourt",
     },
     {
-      id: 2,
+      id: 3,
       title: "Cat",
       img: "pictures/cat.png",
       bio: "bio",
@@ -132,7 +140,7 @@
       repo: "https://github.com/kmruban/webGl_ProjectCat",
     },
     {
-      id: 3,
+      id: 4,
       title: "Ball",
       img: "pictures/basketball.png",
       bio: "bio",
@@ -140,7 +148,7 @@
       repo: "https://github.com/kmruban/webGL_ProjectBall",
     },
     {
-      id: 4,
+      id: 5,
       title: "Cube",
       img: "pictures/cube.png",
       bio: "bio",
@@ -148,7 +156,7 @@
       repo: "https://github.com/kmruban/webGL_ProjectCube",
     },
     {
-      id: 5,
+      id: 6,
       title: "Person",
       img: "pictures/person1.png",
       bio: "bio",
@@ -156,7 +164,7 @@
       repo: "https://github.com/kmruban/webGL_ProjectPerson",
     },
     {
-      id: 6,
+      id: 7,
       title: "Shapes",
       img: "pictures/shapes.png",
       bio: "bio",
@@ -164,7 +172,7 @@
       repo: "https://github.com/kmruban/webGL_ProjectShapes",
     },
     {
-      id: 7,
+      id: 8,
       title: "Rotation",
       img: "pictures/rotate.png",
       bio: "bio",
