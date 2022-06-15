@@ -1,7 +1,7 @@
 import './nav.scss';
 import React, { useState } from 'react';
 import {Menu} from '@material-ui/icons';
-import pdf from "../../Kyle_Ruban_Resume.pdf";
+import pdf from "../../Resume_KYLERUBAN.pdf";
 
 function Nav() {
 
