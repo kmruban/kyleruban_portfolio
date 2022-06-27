@@ -3,7 +3,6 @@ import React from 'react';
 import ParticleBackground from '../particles/Particles';
 import { init } from 'ityped';
 import { useEffect, useRef } from 'react';
-import { MdKeyboardArrowRight } from "react-icons/md";
 
 function Home() {
     const textRef = useRef();
@@ -26,7 +25,7 @@ function Home() {
                 <h2>Full-Stack <span ref={textRef}></span></h2>
             </div>
             <div className='bottom'>
-                <button><a href='#about'>View My Work <MdKeyboardArrowRight /></a></button>
+                <button><a href='#about'>View My Work</a></button>
             </div>
         </div>
     </div>
