@@ -50,10 +50,6 @@ function Contact() {
                     <a href='https://github.com/kmruban' alt=''><img src='pictures/github.png' alt='' /></a>
                     <p>Personal</p>
                 </div>
-                <div className='label'>
-                    <a href='https://github.com/kyleruban' alt=''><img src='pictures/github.png' alt='' /></a>
-                    <p>School</p>
-                </div>
             </div>
         
     </div>

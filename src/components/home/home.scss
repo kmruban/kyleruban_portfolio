@@ -24,6 +24,7 @@
 
       h2 {
         font-size: 40px;
+        color: white;
 
         @include onlyTablet {
           font-size: 30px;
@@ -48,6 +49,7 @@
 
       h2 {
         font-size: 40px;
+        color: white;
 
         @include onlyTablet {
           font-size: 30px;
@@ -59,7 +61,7 @@
 
         span {
           font-size: inherit;
-          color: black;
+          color: white;
         }
         .ityped-cursor {
           animation: blink 1s infinite;
@@ -87,7 +89,7 @@
         align-items: center;
         justify-content: center;
         background-color: Transparent;
-        border: 2px solid black;
+        border: 2px solid white;
         padding: 10px 10px;
 
         a {
@@ -95,23 +97,23 @@
           align-items: center;
           justify-content: center;
           text-decoration: none;
-          color: inherit;
+          color: white;
           &::-webkit-scrollbar {
             display: none;
           }
-        }
 
-        img {
-          height: 25px;
-          transition: 500ms ease all;
-          padding-left: 5px;
+          svg{
+            height: 2em;
+            width: 2em;
+            transition: 500ms ease all;
+          }
         }
       }
 
       button:hover {
-        background-color: $mainColorDark;
+        background-color: $mainColor;
 
-        img {
+        svg {
           transform: rotate(90deg);
           transition: 750ms ease all;
         }

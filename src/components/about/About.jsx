@@ -9,7 +9,7 @@ function About() {
           </div>
           <div className='top'>
             <div className='left'>
-              <img src='pictures/person.png' alt='' />
+              <img src='pictures/Me.png' alt='' />
             </div>
             <div className='right'>
               <h2>Contact</h2>
@@ -27,15 +27,12 @@ function About() {
           </div>
           <div className='bottom'>
             I am a recent college graduate with a B.S. in Computer Science.
-            I am working to find a job in the industry as a Software Engineer 
-            with a focus in 3D game development or full-stack web development. 
-            I have absorbed a ton of knowledge from building projects by myself over the 
+            I am working to find a job in the industry with a focus in Full-Stack Software Engineering. 
+            I have absorbed a ton of knowledge from building projects by myself over the last
             years along with courses taken in school to advance my programming ability to 
             new heights. I aim to find a good job where I can take my
             knowledge and desire to learn more everyday to continue pushing myself and contribute
             positively on whatever it is I am doing.
-
-            As a recent college graduate I 
           </div>
         </div>
     </div>

@@ -2,7 +2,7 @@
 
 .contact {
   display: flex;
-  background-color: white;
+  background-color: $mainColor;
   position: relative;
   &::-webkit-scrollbar {
     display: none;
@@ -59,7 +59,7 @@
       top: 2%;
       left: 59%;
       justify-content: center;
-      background-color: lightgray;
+      background-color: $mainColorDark;
       border-radius: 5px;
 
       @include tablet {
@@ -187,11 +187,11 @@
             outline: none;
             cursor: pointer;
             border-radius: 15px;
-            background-color: $mainColor;
-            color: black;
+            background-color: $mainColorDark;
+            color: white;
             font-weight: 500;
             font-size: 15px;
-            border: 3px solid $mainColorDark;
+            border: 3px solid $mainColor;
 
             @include onlyFullScreen {
               top: 25vh;
@@ -206,7 +206,7 @@
           }
 
           button:hover {
-            background-color: $mainColorDark;
+            background-color: $mainColor;
           }
         }
       }
@@ -245,8 +245,7 @@
     }
 
     img {
-      border: 1px solid black;
-      border-radius: 2.5px;
+      border-radius: 5px;
       padding: 2px;
       height: 40px;
       width: 40px;
@@ -259,7 +258,7 @@
       margin: 5%;
 
       p{
-        color: gray;
+        color: white;
         font-size: 16px;
 
         @include phone {

@@ -7,10 +7,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: white;
+  background-color: $mainColor;
 
   h1 {
-    color: black;
+    color: white;
     position: absolute;
     top: 17.5px;
     font-size: 45px;
@@ -36,7 +36,7 @@
       margin-top: 30px;
       font-size: 20px;
       padding: 10px;
-      color: black;
+      color: white;
       font-weight: 400;
 
       @include tablet {
@@ -51,18 +51,18 @@
     }
 
     .portfolioList:hover {
-      background-color: #87cefa78;
+      background-color: $mainColor;
     }
 
     .portfolioList.active {
-      background-color: $mainColor;
+      background-color: $mainColorDark;
       color: white;
     }
   }
 
   .container {
     display: flex;
-    background-color: lightgray;
+    background-color: $mainColorDark;
     width: 70%;
     height: 70%;
     flex-wrap: wrap;
@@ -84,7 +84,7 @@
       padding: 0px 15px;
       background-color: white;
       border-radius: 5px;
-      border: solid 5px black;
+      border: solid 5px $mainColorDark;
 
       @include onlyTablet {
         height: 215px;
@@ -101,7 +101,7 @@
         padding-bottom: 10px;
 
         img {
-          border: 2.5px solid black;
+          border: 2.5px solid $mainColorDark;
           border-radius: 5px;
           width: 150px;
           height: 150px;

@@ -1,10 +1,9 @@
 @import "../../global.scss";
 
 .about {
-  background-color: white;
+  background-color: $mainColor;
   display: flex;
   flex-direction: column;
-  width: 100vw;
   height: 100vh;
   position: relative;
   &::-webkit-scrollbar {
@@ -13,7 +12,6 @@
 
   .container {
     position: absolute;
-    background-color: white;
     height: calc(100vh - 50px);
     width: 100vw;
     display: flex;
@@ -29,6 +27,7 @@
       align-items: center;
 
       h1{
+        color: white;
         font-size: 45px;
       }
     }
@@ -36,16 +35,16 @@
     .top{
       display: flex;
       height: 30%;
-      width: 90%;
-      justify-content: space-around;
+      width: 60vw;
+      justify-content: center;
 
       .left{
         display: flex;
 
         img{
           @include phone {
-            height: 175px;
-            width: 150px;
+            height: 500px;
+            width: 1500px;
           }
         }
       }
@@ -54,9 +53,13 @@
         display: flex;
         flex-direction: column;
 
+        h2{
+          color: white;
+        }
+
         label{
           font-size: 14px;
-          color: gray;
+          color: black;
 
           @include tablet {
             font-size: 10px;
